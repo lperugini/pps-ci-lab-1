@@ -1,6 +1,9 @@
 
 public class Peru {
+    private String name;
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
+        this.name = "Peru"
+
+        System.out.println("Hello, World! by " + this.name);
     }
 }
